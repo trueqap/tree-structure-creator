@@ -1,0 +1,26 @@
+weather-app/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── manifest.json
+├── src/
+│   ├── components/
+│   │   ├── WeatherDisplay.js
+│   │   ├── SearchBar.js
+│   │   ├── ForecastCard.js
+│   │   └── LoadingSpinner.js
+│   ├── services/
+│   │   └── weatherApi.js
+│   ├── hooks/
+│   │   └── useWeatherData.js
+│   ├── utils/
+│   │   └── dateFormatter.js
+│   ├── styles/
+│   │   ├── index.css
+│   │   └── WeatherDisplay.module.css
+│   ├── App.js
+│   └── index.js
+├── .env
+├── package.json
+├── README.md
+└── .gitignore
